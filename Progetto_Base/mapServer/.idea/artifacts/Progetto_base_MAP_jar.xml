@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Progetto_base_MAP:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Progetto_base_MAP_jar</output-path>
+    <root id="archive" name="Progetto_base_MAP.jar">
+      <element id="module-output" name="Progetto_base_MAP" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/sql/mysql-connector-java-8.0.29.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

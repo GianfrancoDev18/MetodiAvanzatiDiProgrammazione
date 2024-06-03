@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"App"},{"p":"clienthandler","l":"ClientOptions"},{"p":"gui","l":"ClusterDB"},{"p":"gui","l":"ConnectionToServer"},{"p":"Utils","l":"ErrorHandler"},{"p":"gui","l":"InfoClusterFile"},{"p":"Utils","l":"Init"},{"p":"gui","l":"MenuUI"}];updateSearchResults();

@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="map_progetto_estensione:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/map_progetto_estensione_jar</output-path>
+    <root id="archive" name="map_progetto_estensione.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="map_progetto_estensione" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/netbeans/external/AbsoluteLayout/RELEASE180/AbsoluteLayout-RELEASE180.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
