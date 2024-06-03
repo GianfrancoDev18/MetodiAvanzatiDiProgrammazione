@@ -106,38 +106,38 @@ Una volta avviato il Client, se la connessione con il server va a buon fine si s
 
 - Se scelta l'opzione **1** verra' richiesto il path del file, banalmente il nome del path sara' il nome della tabella all'interno del db, piu' il **k** che indica il numero di centroidi. Successivamente si puo' ritornare al menu per effettuare altre operazioni.
 
-![Alt text](image-1.png)
+![Alt text](./image/image-1.png)
 
 - Se scelta l'opzione **2** verra' richiesto il nome della tabella da trovare nel db e il numero di cluster in modo tale per effettuare l'algoritmo del Kmeans. Successivamente se tutto va buon fine i centroidi generati verranno salvati automaticamente.
 
-![Alt text](image-2.png)
+![Alt text](./image/image-2.png)
 
 - Una volta finita l'operazione verra' richiesto all'utente di ripetere l'opzione **2** con un possibile numero differente di cluster. Altrimenti l'utente puo' ritornare alla schermata del menu' per effettuare altre operazioni.
 
-![Alt text](image-3.png)
+![Alt text](./image/image-3.png)
 
 ### Utilizzo del Client (progetto esteso)
 #### Schermata Credenziali Server
 Se il client viene avviato senza argomenti verra' chiesto direttamente all'utente di inserirli, oppure puo' premere il pulsante di default che impostera' la porta ed l'indirizzo ip ad un valore di default
-![Alt text](image-15.png)
+![Alt text](./image/image-15.png)
 
 #### Schermata Menu
 ---
 Una volta avviato il Client grafico, ci si trovera' sulla schermata del menu da quale possiamo scegliere le due opzioni che vi erano precedentemente nel client del progetto. Nei due input text viene aggiunto il nome della tabella e il k. Questi due input text serviranno per svolgere le due operazioni citate prima di lettura/scoperta di cluster.
 
-![Alt text](image-16.png)
+![Alt text](./image/image-16.png)
 
 #### Schermata risultato lettura cluster da file
 ---
 In caso di scelta di **"lettura da cluster da file"** che sarebbe la precendente **1** opzione si aprira' un finestra che indica i centroidi salvati sul file specificato.
 
-![Alt text](image-5.png)
+![Alt text](./image/image-5.png)
 
 #### Schermata risultato scoperta cluster
 ---
 In caso di scelta dell'opzione **"Carica dati"** che sarebbe la precedente **2** opzione si aprira' sempre una finestra che indichera' il risultato ottenuto applicando l'algoritmo e si potra' ripetere con un numero differente di cluster, specificato in basso a sinistra.
 
-![Alt text](image-6.png)
+![Alt text](./image/image-6.png)
 
 ## Casi di Test
 ---
@@ -145,47 +145,47 @@ In caso di scelta dell'opzione **"Carica dati"** che sarebbe la precedente **2**
 **Scelta menu:** 1
 **Output atteso:** Nome tabella seguito da numero iterate
 **Output:**
-![Alt text](image-8.png)
+![Alt text](./image/image-8.png)
 
 **Scelta menu:** 3
 **Output atteso:** Ristampa del menu
 **Output:** 
-![Alt text](image-7.png)
+![Alt text](./image/image-7.png)
 
 **Scelta menu:** 1
 **Nome tabella:** nome tabella esistente nel file
 **Numero iterate:** numero iterate esistente nel file
 **Output atteso:** centroidi nel path "nome tabella_numero Iterate"
 **Output:** 
-![Alt text](image-9.png)
+![Alt text](./image/image-9.png)
 
 **Scelta menu:** 1
 **Nome tabella:** nome tabella inesistente nel file
 **Numero iterate:** numero iterate inesistente nel file
 **Output atteso:** Errore nel path
 **Output:** 
-![Alt text](image-10.png)
+![Alt text](./image/image-10.png)
 
 **Scelta menu:** 2
 **Nome tabella:** nome tabella esistente nel db
 **Numero cluster:** numero compreso tra > 0 e <= delle tuple distinte
 **Output atteso:** algoritmo del kmeans effettuato correttamente con il numero di cluster inserito 
 **Output:** 
-![Alt text](image-11.png)
+![Alt text](./image/image-11.png)
 
 **Scelta menu:** 2
 **Nome tabella:** nome tabella inesistente nel db
 **Numero cluster:** numero compreso tra > 0 e <= delle tuple distinte
 **Output atteso:** tabella inesistente nel db
 **Output:** 
-![Alt text](image-12.png)
+![Alt text](./image/image-12.png)
 
 **Scelta menu:** 2
 **Nome tabella:** nome tabella esistente nel db
 **Numero cluster:** numero compreso tra < 0
 **Output atteso:** numero di cluster inserito errato
 **Output:** 
-![Alt text](image-13.png)
+![Alt text](./image/image-13.png)
 
 
 **Scelta menu:** 2
@@ -193,4 +193,4 @@ In caso di scelta dell'opzione **"Carica dati"** che sarebbe la precedente **2**
 **Numero cluster:** numero compreso tra > delle tuple distinte
 **Output atteso:** numero di cluster inserito errato
 **Output:** 
-![Alt text](image-14.png)# MetodiAvanzatiDiProgrammazione
+![Alt text](./image/image-14.png)# MetodiAvanzatiDiProgrammazione
