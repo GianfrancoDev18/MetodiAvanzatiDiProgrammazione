@@ -102,7 +102,7 @@ Per avviare il client grafico è necessario avviare il file `clientWithArgs.bat`
 ---
 Una volta avviato il Client, se la connessione con il server va a buon fine si specifica quale operazione si vuole effettuare. 
 
-![Alt text](image.png)
+![Alt text](./image/image.png)
 
 - Se scelta l'opzione **1** verra' richiesto il path del file, banalmente il nome del path sara' il nome della tabella all'interno del db, piu' il **k** che indica il numero di centroidi. Successivamente si puo' ritornare al menu per effettuare altre operazioni.
 
